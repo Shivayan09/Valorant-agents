@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black">
+    <div class="navbar h-[10vh] px-10 py-10 flex flex-col md:flex-row gap-y-2 items-center justify-center">
+        <div class="header border">
+            <h2 class="font-bold text-white text-[1.2rem] uppercase">Valorant Agents</h2>
+        </div>
+        <div class="nav w-[70vw] flex items-center justify-evenly gap-5">
+            <p class="text-white text-[1.1rem] transition transform duration-300 hover:cursor-pointer hover:underline hover:scale-[1.04] hover:text-rose-500">Home</p>
+            <p class="text-white text-[1.1rem] transition transform duration-300 hover:cursor-pointer hover:underline hover:scale-[1.04] hover:text-rose-500">Agents</p>
+            <p class="text-white text-[1.1rem] transition transform duration-300 hover:cursor-pointer hover:underline hover:scale-[1.04] hover:text-rose-500">About</p>
+            <p class="text-white text-[1.1rem] transition transform duration-300 hover:cursor-pointer hover:underline hover:scale-[1.04] hover:text-rose-500">More</p>
+        </div>
+    </div>
+    <div class="intro h-80 m-10 flex">
+        <div class="box relative w-[40%] flex items-center justify-center">
+            <img src="valo-brim.png" alt="" class="h-[80%] md:h-[150%] w-auto absolute z-10 opacity-60 md:opacity-100">
+            <div class="flex flex-col">
+                <h2 class="text-rose-500 text-[1.6rem] md:text-[2.5rem] lg:text-[3.2rem] uppercase font-bold z-20 md:z-0 [word-spacing:7.5rem]">What are</h2>
+                <h2 class="text-rose-500 text-[1.6rem] md:text-[2.5rem] lg:text-[3.2rem] uppercase font-bold z-20 md:text-center">agents</h2>
+            </div>
+        </div>
+        <div class="box w-[60%] flex items-center justify-center">
+            <p class="text-white mt-5 mb-5 ml-3 mr-3 text-[0.77rem] md:text-[1.4rem] font-mono">In Valorant, an Agent is a unique character with special abilities and a distinct role: Duelist, Initiator, Controller, or even Sentinel. Each agent brings a different playstyle and tactical advantage, making them key to team strategy and success in every match</p>
+        </div>
+    </div>
+    <div class="duelists max-h-fit m-5 md:mt-20 ">
+        <div class="h-16 flex flex-col md:flex-row">
+            <div class="box h-[100%] md:w-[30%] flex items-center justify-center">
+                <h2 class="font-bold text-rose-500 text-[2rem] md:text-[2.5rem] uppercase">Duelists :</h2>
+            </div>
+            <div class="box h-[100%] md:w-[70%] flex items-center justify-center">
+                <p class="font-mono text-white text-[0.9rem] md:text-[1.2rem]">Self-sufficient fraggers who are expected to secure kills and entry space</p>
+            </div>
+        </div>
+        <div class="pics mt-14 md:mt-0 flex flex-wrap justify-center gap-10">
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="jett-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[5rem] md:text-[5.4rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    jett
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Agile and evasive, Jett uses speed as well as verticality in order to outmaneuver enemies and take swift fights
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="reyna-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[3.7rem] md:text-[4.5rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    reyna
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Thrives on kills, using soul orbs to heal or become invulnerable, making her deadly in clutch fights
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="phoenix-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[3rem] md:text-[4rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    phoenix
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">A fiery entry fragger who can heal himself with his own fire-based abilities and flash around corners
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="raze-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[4rem] md:text-[5rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    raze
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Explosive and aggressive, Raze uses grenades and a rocket launcher to clear areas and secure kills
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="duelists max-h-fit m-5 md:mt-20">
+        <div class="h-16 flex flex-col md:flex-row">
+            <div class="box h-[100%] md:w-[30%] flex items-center justify-center">
+                <h2 class="font-bold text-rose-500 text-[2rem] md:text-[2.5rem] uppercase">Initiators :</h2>
+            </div>
+            <div class="box h-[100%] md:w-[70%] flex items-center justify-center">
+                <p class="font-mono text-white text-[0.9rem] md:text-[1.2rem]">Create opportunities by disrupting enemies and setting up their team</p>
+            </div>
+        </div>
+        <div class="pics mt-14 md:mt-0 flex flex-wrap justify-center gap-10">
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="sova-valo.png" alt="" class="h-[100%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[4rem] md:text-[5rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    sova
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">A recon expert with drones and shock arrows that reveal and damage enemies from afar
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="breach-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[3.2rem] md:text-[4.7rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    breach
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Uses seismic charges to flash, stun, and displace enemies through walls and obstacles
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="fade-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[4.3rem] md:text-[6rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    fade
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Haunts and traps enemies with shadow-based abilities, forcing them into vulnerable positions
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="skye-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[4.3rem] md:text-[6.3rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    skye
+                  </h2>
+                </div>
+                <div class="bo w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">A support-focused initiator who scouts with a healing touch and guiding flashes through terrain
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="duelists max-h-fit m-5 md:mt-20">
+        <div class="h-16 flex flex-col md:flex-row">
+            <div class="box h-[100%] md:w-[30%] flex items-center justify-center">
+                <h2 class="font-bold text-rose-500 text-[2rem] md:text-[2.5rem] uppercase">Controllers :</h2>
+            </div>
+            <div class="box h-[100%] md:w-[70%] flex items-center justify-center">
+                <p class="font-mono text-white text-[0.9rem] md:text-[1.2rem]">Experts in shaping the battlefield with smokes and vision control</p>
+            </div>
+        </div>
+        <div class="pics mt-14 md:mt-0 flex flex-wrap justify-center gap-10">
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="valo-brim.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[4rem] md:text-[6rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    brim
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Reliable and simple, Brimstone calls in targeted smokes and an orbital strike to control space
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="omen-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[4rem] md:text-[5.7rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    omen
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">A shadowy agent who teleports, blinds, and smokes with unpredictable map control
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="viper-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[4rem] md:text-[5rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    viper
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Uses poison and toxic gas to control zones and deny entry with lasting area denial
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="harbor-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[3rem] md:text-[4.5rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    harbor
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Wields water-based abilities to block vision and slow pushes with cascading waves and shields
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="duelists max-h-fit m-5 md:mt-20">
+        <div class="h-16 flex flex-col md:flex-row">
+            <div class="box h-[100%] md:w-[30%] flex items-center justify-center">
+                <h2 class="font-bold text-rose-500 text-[2rem] md:text-[2.5rem] uppercase">Sentinels :</h2>
+            </div>
+            <div class="box h-[100%] md:w-[70%] flex items-center justify-center">
+                <p class="font-mono text-white text-[0.9rem] md:text-[1.2rem]">Defensive experts that lock down sites and watch flanks</p>
+            </div>
+        </div>
+        <div class="pics mt-14 md:mt-0 flex flex-wrap justify-center gap-10">
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="kj-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[3rem] md:text-[5rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    killjoy
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">Deploys turrets, traps, and nanoswarms to lock down sites with deadly precision
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="sage-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[4rem] md:text-[6rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    sage
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">A vital support with heals, slows, and barriers — and the ability to revive fallen allies
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="cypher-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[3rem] md:text-[4.7rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    cypher
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">A surveillance master who sets up cameras and trapwires to gather intel and catch enemies off guard
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box h-60 md:h-80 w-[100%] md:w-[42%] flex">
+                <div class="box w-[50%] relative">
+                  <img src="deadlock-valo.png" alt="" class="h-[110%] w-auto mx-auto relative z-10">
+                  <h2 class="text-orange-700 text-[2.3rem] md:text-[4rem] uppercase font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 text-center">
+                    deadlock
+                  </h2>
+                </div>
+                <div class="box w-[50%]">
+                    <p class="text-rose-200 m-5 text-[0.8rem] md:text-[1rem] lg:text-[1.2rem] text-center">A newer sentinel who uses magnetic tech to restrain, track, and neutralize enemy advances
+                    </p>
+                    <div class="buttons flex justify-center items-center gap-5 flex-col flex-wrap">
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">Perks</button>
+                        <button class="h-7 md:h-10 w-[70%] bg-rose-700 text-white/80 rounded-xl transition transform duration-300 hover:scale-[1.05] hover:bg-rose-800 hover:text-white hover:cursor-pointer">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
