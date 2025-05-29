@@ -24,10 +24,6 @@ Tailwind CSS v4
 Vercel – for deployment
 
 📂 File Structure
-arduino
-Copy
-Edit
-/
 ├── index.html
 ├── styles.css (optional)
 ├── /images (agent images or assets)
